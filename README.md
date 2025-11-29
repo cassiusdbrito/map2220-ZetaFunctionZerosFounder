@@ -48,7 +48,7 @@ Possui:
 
 ---
 
-## 🏗 Arquitetura do Código
+## Arquitetura do Código
 
 ```
 application/
@@ -66,7 +66,7 @@ Classes principais:
 
 ---
 
-## ▶Como Rodar
+## Como Rodar
 
 No diretório `application/`, execute:
 
@@ -98,28 +98,6 @@ Erros esperados:
 - Intervalos sem mudança de sinal → secante falha  
 - t muito pequeno → domínio inválido da Riemann–Siegel  
 - Oscilações grandes → máximo de iterações excedido  
-
----
-
-## Restrições de Bibliotecas
-
-Conforme instruções do professor:
-
-### ✔ Permitido:
-- math  
-- cmath  
-- time  
-- datetime  
-- os  
-- numpy  
-- matplotlib  
-
-### Proibido:
-- scipy  
-- mpmath  
-- qualquer biblioteca numérica avançada  
-
-Por isso a função Gamma foi implementada manualmente.
 
 ---
 
