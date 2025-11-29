@@ -68,10 +68,10 @@ Classes principais:
 
 ## Como Rodar
 
-No diretório `application/`, execute:
+No diretório raiz, execute:
 
 ```
-python3 main.py
+python3 -m application.main
 ```
 ---
 
@@ -79,11 +79,17 @@ python3 main.py
 
 ```
 ============ TESTE : PARA 50 ITERAÇÕES =============:
-zero (1): t = 14.517919628262  |  interação = 5
-zero (2): t = 20.654044969368  |  interação = 6
-zero (3): t = 32.688929806777  |  interação = 6
+zero (1): t = 14.517919628262  |  interação = 5  |  intervalo usado = [13, 15]
+zero (2): t = 20.654044969368  |  interação = 6  |  intervalo usado = [20, 23]
+zero (3): t = 32.688929806777  |  interação = 7  |  intervalo usado = [30, 33]
+zero (4): t = 37.716482062397  |  interação = 6  |  intervalo usado = [35, 38]
+zero (5): t = 43.460371685047  |  interação = 10  |  intervalo usado = [40, 43]
+zero (6): t = 47.824617076175  |  interação = 6  |  intervalo usado = [45, 48]
+zero (7): t = 50.003418594753  |  interação = 7  |  intervalo usado = [50, 53]
+zero (8): t = 60.531122079866  |  interação = 12  |  intervalo usado = [60, 63]
+zero (9): t = 69.655450075643  |  interação = 9  |  intervalo usado = [65, 68]
 
-quantidade de zeros encontrados: 3
+quantidade de zeros encontrados: 9
 ```
 
 Erros esperados:

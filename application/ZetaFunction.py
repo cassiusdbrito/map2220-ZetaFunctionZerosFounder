@@ -1,6 +1,6 @@
 import math
 import cmath
-from GammaFunction import GammaFunction
+from application.GammaFunction import GammaFunction
 
 
 class ZetaFunction:
