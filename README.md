@@ -73,13 +73,6 @@ No diretório `application/`, execute:
 ```
 python3 main.py
 ```
-
-ou
-
-```
-py main.py
-```
-
 ---
 
 ## Exemplo de Saída
@@ -106,8 +99,7 @@ Erros esperados:
 - Melhorar precisão de θ(t)  
 - Adicionar termos corretivos da fórmula de Riemann–Siegel  
 - Criar gráficos de Z(t)  
-- Comparar zeros encontrados com zeros tabelados  
-- Criar um scanner automático de zeros  
+- Comparar zeros encontrados com zeros tabelados   
 
 ---
 
