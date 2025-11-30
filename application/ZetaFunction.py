@@ -26,7 +26,7 @@ class ZetaFunction:
         """
 
         if t <= 0:
-            raise ValueError("t must be positive for the Riemann–Siegel approximation.")
+            raise ValueError("t precisa ser poxitivo para a aproximação de Riemann–Siegel.")
 
         theta_t = self.theta(t)
         N = int(math.sqrt(t / (2 * math.pi)))
